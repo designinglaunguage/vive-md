@@ -1,0 +1,13 @@
+[연구/기술 동향]
+
+□ CES 2026 AI 칩 동향 및 경쟁사별 전략 분석
+CES 2026에서 엔비디아, AMD, 인텔, 퀄컴 등 주요 반도체 기업들이 AI 칩 관련 주요 발표를 진행하며 경쟁이 심화되고 있음
+엔비디아는 차기 AI 플랫폼 'Vera Rubin'을 공개하며 블랙웰 후속 제품을 선보였고, Rubin GPU는 NVFP4 데이터 형식을 사용해 추론 컴퓨팅에서 50페타플롭스(블랙웰 대비 5배)의 성능을 달성
+AMD는 차세대 AI 칩 'MI400' 시리즈와 '헬리오스(Helios)' 서버 랙을 공개하며 오픈AI와 6GW(기가와트) GPU 공급계약을 체결하고, 오픈AI에 자사 지분 약 10%를 취득할 수 있는 옵션을 제안
+인텔은 Panther Lake(Core Ultra Series 3) AI 칩을 공개하며 18A 공정 기술을 선보였고, 고급 게이밍 디바이스를 대상으로 한 AI PC 시장 공략에 집중
+퀄컴은 중급 스냅드래곤 X2 프로세서를 출시하며 AI PC 시장에서의 입지를 확대하고 있음
+• 엔비디아 Rubin GPU 추론 성능: 50페타플롭스(NVFP4, 블랙웰 대비 5배)
+• AMD MI455X 트랜지스터: 3200억 개, HBM4 메모리 432GB 탑재
+• AMD-오픈AI 공급계약: 6GW GPU
+• 인텔 Panther Lake: 18A 공정 기술 적용
+☞ 출처: [CRN](https://www.crn.com/news/components-peripherals/2026/ces-2026-8-big-chip-announcements-by-intel-nvidia-amd-and-qualcomm) 2026/01/08

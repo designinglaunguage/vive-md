@@ -56,7 +56,7 @@ Lecture Notes in Computer Science
 ((LNCS,volume 15344))
 Included in the following conference series:
 European Semantic Web Conference
-1002
+1010
 Accesses
 15
 Citations
@@ -304,7 +304,7 @@ NeOn-GPT: 온톨로지 학습을 위한 대규모 언어 모델 기반 파이프
 ((LNCS, 15344권))
 다음 컨퍼런스 시리즈에 포함되어 있습니다:
 유럽 시맨틱 웹 컨퍼런스
-1002
+1010
 액세스
 15
 인용

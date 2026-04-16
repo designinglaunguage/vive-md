@@ -51,9 +51,9 @@ Lecture Notes in Computer Science
 ((LNCS,volume 14265))
 Included in the following conference series:
 International Semantic Web Conference
-6198
+6210
 Accesses
-111
+112
 Citations
 Abstract
 We propose the LLMs4OL approach, which utilizes Large Language Models (LLMs) for Ontology Learning (OL). LLMs have shown significant advancements in natural language processing, demonstrating their ability to capture complex language patterns in different knowledge domains. Our LLMs4OL paradigm investigates the following hypothesis:
@@ -310,9 +310,9 @@ orcid.org/0000-0002-0698-2864
 ((LNCS, 14265권))
 다음 컨퍼런스 시리즈에 포함되어 있습니다:
 국제 시맨틱 웹 컨퍼런스
-6198
+6210
 액세스
-111
+112
 인용
 초록
 우리는 온톨로지 학습(OL)을 위해 LLM(대형 언어 모델)을 활용하는 LLMs4OL 접근 방식을 제안합니다. LLM은 자연어 처리 분야에서 상당한 발전을 보여 다양한 지식 영역에서 복잡한 언어 패턴을 포착하는 능력을 입증했습니다. 우리의 LLMs4OL 패러다임은 다음 가설을 조사합니다.

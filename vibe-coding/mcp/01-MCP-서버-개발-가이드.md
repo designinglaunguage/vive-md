@@ -6,12 +6,12 @@
 
 ## 목차
 
-1. [커스텀 MCP 서버 개발 개요](#1-커스텀-mcp-서버-개발-개요)
-2. [TypeScript SDK 서버 개발](#2-typescript-sdk-서버-개발)
-3. [Python SDK (FastMCP) 서버 개발](#3-python-sdk-fastmcp-서버-개발)
-4. [테스트 및 디버깅](#4-테스트-및-디버깅)
-5. [배포](#5-배포)
-6. [관련 문서 참조](#6-관련-문서-참조)
+1. [커스텀 MCP 서버 개발 개요](#1-%EC%BB%A4%EC%8A%A4%ED%85%80-mcp-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C-%EA%B0%9C%EC%9A%94)
+2. [TypeScript SDK 서버 개발](#2-typescript-sdk-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C)
+3. [Python SDK (FastMCP) 서버 개발](#3-python-sdk-fastmcp-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C)
+4. [테스트 및 디버깅](#4-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B0%8F-%EB%94%94%EB%B2%84%EA%B9%85)
+5. [배포](#5-%EB%B0%B0%ED%8F%AC)
+6. [관련 문서 참조](#6-%EA%B4%80%EB%A0%A8-%EB%AC%B8%EC%84%9C-%EC%B0%B8%EC%A1%B0)
 
 ---
 
@@ -22,7 +22,7 @@
 MCP 서버를 직접 개발하면 AI 어시스턴트가 접근할 수 없는 내부 시스템, 독자적 API, 레거시 데이터베이스를 Tool/Resource로 노출할 수 있다. 기존 MCP 서버가 커버하지 못하는 다음 시나리오에서 커스텀 서버가 필요하다:
 
 | 시나리오 | 설명 |
-|----------|------|
+| --- | --- |
 | **사내 API 연동** | 인증이 필요한 내부 REST/gRPC 서비스를 Tool로 래핑 |
 | **레거시 DB 접근** | 직접 쿼리가 필요한 Oracle, MSSQL 등 레거시 데이터베이스 |
 | **커스텀 비즈니스 로직** | 사내 규칙 엔진, 결재 시스템 등 도메인 특화 로직 |
@@ -45,17 +45,23 @@ flowchart LR
 서버 개발에 앞서 다음 항목을 점검한다:
 
 - [ ] **노출할 기능 목록**: Tool, Resource, Prompt 각각에 매핑할 기능 식별
+
 - [ ] **인증 요구사항**: OAuth, API Key, 서비스 계정 등 인증 방식 결정
+
 - [ ] **데이터 민감도**: 노출할 데이터의 보안 등급 확인
+
 - [ ] **Transport 방식**: stdio(로컬) vs SSE(원격) 결정
+
 - [ ] **대상 클라이언트**: Claude Desktop, VS Code, 커스텀 클라이언트 등
+
 - [ ] **에러 처리 전략**: 외부 서비스 장애 시 대응 방안
+
 - [ ] **성능 요구사항**: 동시 요청 수, 응답 시간 제한
 
 ### 1.3 SDK 선택 가이드
 
 | 기준 | TypeScript SDK | Python SDK (FastMCP) |
-|------|---------------|---------------------|
+| --- | --- | --- |
 | **설치** | `npm i @modelcontextprotocol/sdk` | `pip install "mcp[cli]"` |
 | **정의 방식** | 명시적 스키마 등록 | 데코레이터 기반 |
 | **타입 안전성** | Zod 스키마 | Pydantic + 타입 힌트 |
@@ -1624,7 +1630,7 @@ npx @modelcontextprotocol/inspector --port 8080 node dist/index.js
 Inspector에서 테스트할 수 있는 항목:
 
 | 탭 | 기능 |
-|----|------|
+| --- | --- |
 | **Tools** | Tool 목록 확인, 인자 입력, 실행 및 결과 확인 |
 | **Resources** | Resource URI 목록, 읽기 테스트 |
 | **Prompts** | Prompt 목록, 인자 입력, 생성된 메시지 확인 |
@@ -1907,6 +1913,7 @@ startCommand:
 ```
 
 등록 절차:
+
 1. GitHub 저장소에 `smithery.yaml` 커밋
 2. [smithery.ai](https://smithery.ai)에서 저장소 연결
 3. 자동 빌드 및 배포 확인
@@ -1921,7 +1928,7 @@ startCommand:
 ```
 
 | 버전 변경 | 시기 |
-|-----------|------|
+| --- | --- |
 | **Major** (2.0.0) | Tool 삭제, inputSchema 변경 등 Breaking Change |
 | **Minor** (1.1.0) | 새 Tool/Resource 추가, 기존 Tool에 선택적 파라미터 추가 |
 | **Patch** (1.0.1) | 버그 수정, 성능 개선, 문서 업데이트 |
@@ -1931,9 +1938,9 @@ startCommand:
 ## 6. 관련 문서 참조
 
 | 문서 | 설명 |
-|------|------|
+| --- | --- |
 | [MCP 종합 가이드 (README.md)](./README.md) | MCP 프로토콜 개요, 아키텍처, 설정 방법 |
-| [MCP 보안/인증 가이드 (02)](./02-MCP-보안-인증-가이드.md) | OAuth 2.0, 시크릿 관리, 보안 체크리스트 |
+| [MCP 보안/인증 가이드 (02)](./02-MCP-%EB%B3%B4%EC%95%88-%EC%9D%B8%EC%A6%9D-%EA%B0%80%EC%9D%B4%EB%93%9C.md) | OAuth 2.0, 시크릿 관리, 보안 체크리스트 |
 
 ---
 

@@ -66,9 +66,9 @@ Lecture Notes in Computer Science
 ((LNCS,volume 15718))
 Included in the following conference series:
 European Semantic Web Conference
-1091
+1107
 Accesses
-14
+15
 Citations
 6
 Altmetric
@@ -321,9 +321,9 @@ Presutti, V.,
 ((LNCS, 15718권))
 다음 컨퍼런스 시리즈에 포함되어 있습니다:
 유럽 시맨틱 웹 컨퍼런스
-1091
+1107
 액세스
-14
+15
 인용
 6
 알트메트릭

@@ -307,7 +307,7 @@ hasDepth 속성으로. OPTIONAL의 두 가지 트리플 패턴
 깊이 측정에는 형성이 없습니다.
 OBDA 시스템은 이를 자동으로 다시 작성합니다.
 온톨로지를 사용한 SPARQL 쿼리 및 SQL 매핑
-DB에 대해 쿼리하고, 최적화하고, Slege로 평가합니다. q
+DB에 대해 쿼리하고, 최적화하고, Slege로 평가합니다. 큐
 일반적으로 회사의 정보를 수집하는 경우에도
 IT 전문가가 아닌 사용자에게는 DB가 어려운 작업입니다. 주요 내용 중 하나
 그 이유는 DB가 일반적으로 애플리케이션을 제공하도록 설계되었기 때문입니다.
@@ -398,7 +398,7 @@ FormationPressurev9 hasDepth:깊이:
 물론입니다. 다섯 번째는 실존적 수량화와 관련이 있습니다.
 8xy (hasFormationPressure(y;x)! FormationPressure(x));
 8x (형성 압력(x)!9y(has깊이(x;y )^깊이(y))):
-q
+큐
 매핑M inP는 온톨로지가 어떻게 예측하는지 지정합니다.
 소스 DB의 데이터로 채워집니다. 에서
 SE 예에서 각 유정은 다음과 같이 식별됩니다.
@@ -409,7 +409,7 @@ http://slegger.gitlab.io/data#Wellbore-n을 나타냅니다.
 그러한 IRI를 Wellbore-n으로 단축합니다. 그런 다음 매핑 콘-
 SE를 Slegge 데이터베이스에 연결하면 어설션이 포함됩니다.
 WELLBORE에서 식별자를 선택하세요
-WHERE REF_EXISTENCE_KIND = '실제'
+WHERE REF_EXISTENCE_KIND = ’actual’
 ; Wellbore(iri("Wellbore-"; IDENTIFIER))
 SQL에 대한 답변으로 Wellbore 클래스 채우기
 ;의 왼쪽에 있는 쿼리입니다. 일반적으로 매핑 어설션은 다음과 같습니다.
@@ -451,7 +451,7 @@ iri("FP-"; 압력_S)),
 이는 간략하게 3개의 테이블을 단일 테이블로 조인하는 것을 나타냅니다.
 '테이블' 압력, ABox 어설션을 생성할 수 있음
 hasFormationPressure(Wellbore-16/1-29_S; FP-1249):
-그러면 온톨로지는 기본 원자를 암시합니다.
+The ontology will then imply the ground atoms
 hasMeasurement(Wellbore-16/1-29_S; FP-1249);
 형성압력(FP-1249); 압력(FP-1249);
 이는 우리 OBDA 인스턴스의 모든 모델에 적용됩니다. 매

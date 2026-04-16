@@ -40,7 +40,7 @@ Academic
 242
 Citations
 (Scopus)
-1327
+1328
 Downloads
 (Pure)
 Overview
@@ -178,7 +178,7 @@ Contact us
 연구 단위
 프로젝트
 연구 성과
-데이터 세트
+데이터세트
 활동
 상금
 언론/미디어
@@ -196,7 +196,7 @@ Contact us
 242
 인용
 (스코퍼스)
-1327
+1328
 다운로드
 (순수)
 개요

@@ -1,0 +1,12 @@
+[연구/기술 동향]
+
+□ 추론(Inference) 중심 AI 칩 경쟁 본격화
+AI 추론(inference)이 산업의 새로운 수익 중심지로 떠오르며 주요 칩 제조사들이 지연 시간, 전력, 비용 최적화를 위해 경쟁하고 있음
+엔비디아는 200억 달러에 Groq 인수를 진행하며 추론 칩 포트폴리오를 강화했고, AMD는 Untether AI의 엔지니어링 팀을 인수하며 추론 역량을 확보
+인텔은 약 16억 달러 가치로 SambaNova 인수를 추진 중이며, 마이크로소프트도 Maia 200 추론 칩을 공개하는 등 추론 시장 경쟁이 심화되고 있음
+퓨처럼 그룹 설문조사에 따르면 2025년 데이터센터 컴퓨팅 지출에서 GPU가 58%를 차지했으나, 2026년에는 XPU(GPU와 CPU가 아닌 가속기)가 22% 성장률로 GPU(19%)와 CPU(14%)를 앞설 것으로 전망
+• 엔비디아 Groq 인수 금액: 200억 달러
+• 인텔 SambaNova 인수 추진 가치: 약 16억 달러
+• 2026년 XPU 성장률 전망: 22%(GPU 19%, CPU 14% 대비)
+• AWS 입장: 엔비디아, AMD, 인텔 칩 모두 지원하며 고객 선택권 제공
+☞ 출처: [Data Center Knowledge](https://www.datacenterknowledge.com/data-center-chips/inference-becomes-the-next-ai-chip-battleground) 2026/02/23

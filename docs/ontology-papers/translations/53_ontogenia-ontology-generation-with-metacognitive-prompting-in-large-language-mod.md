@@ -52,7 +52,7 @@ Lecture Notes in Computer Science
 ((LNCS,volume 15344))
 Included in the following conference series:
 European Semantic Web Conference
-899
+903
 Accesses
 5
 Citations
@@ -408,7 +408,7 @@ Ontogenia: 대규모 언어 모델에서 메타인지 프롬프트를 통한 온
 ((LNCS, 15344권))
 다음 컨퍼런스 시리즈에 포함되어 있습니다:
 유럽 시맨틱 웹 컨퍼런스
-899
+903
 액세스
 5
 인용
@@ -580,7 +580,7 @@ CNR - 인지 과학 및 기술 연구소, 로마, 볼로냐, 이탈리아
 안드레아 조반니 누졸레세
 마드리드 정치대학교, 마드리드, 스페인
 마리아 포베다-비야론
-비엔나 경제 경영 대학교, 비엔나, 오스트리아
+비엔나 경제 경영 대학, 비엔나, 오스트리아
 마르타 사부
 볼로냐대학교, 볼로냐, 이탈리아
 발렌티나 프레수티
