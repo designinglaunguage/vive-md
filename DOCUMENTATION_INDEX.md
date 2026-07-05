@@ -185,6 +185,12 @@ vive-md/
 |--------|------|------|
 | 상세 설계서 | [상세설계서.md](./templates/waterfall/03-상세설계/상세설계서.md) | 클래스, 시퀀스, 알고리즘 |
 
+### Phase 4: 구현
+
+| 산출물 | 파일 | 설명 |
+|--------|------|------|
+| 코딩 핸드오프 문서 | [CODING_HANDOFF.md](./templates/waterfall/04-구현/CODING_HANDOFF.md) | AI 코딩 위임 범위, 계약, 검증 기준 |
+
 ### Phase 5: 테스트
 
 | 산출물 | 파일 | 설명 |
