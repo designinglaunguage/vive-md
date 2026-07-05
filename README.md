@@ -145,6 +145,16 @@ cp -r templates/waterfall/ /path/to/your-project/docs/
 # "단계별검토-체크리스트.md로 현재 설계를 검토해줘"
 ```
 
+### 코딩 핸드오프 검증
+
+```bash
+# Phase 4 CODING_HANDOFF 템플릿 구조 검증
+python3 scripts/check_coding_handoff.py
+
+# in-memory 실패 케이스까지 함께 검증
+python3 scripts/check_coding_handoff.py --self-test
+```
+
 ### 조합 사용 예시
 
 ```bash
