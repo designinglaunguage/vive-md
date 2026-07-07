@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "scripts/p0_check.py",
+    "--project-root",
+    "docs/waterfall",
+    "--stage",
+    "handoff"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "kind": "cli-replay",
+  "replaySafe": false,
+  "command": [
+    "python3",
+    "scripts/p0_check.py",
+    "--project-root",
+    "docs/waterfall",
+    "--stage",
+    "all"
+  ],
+  "returncode": 0,
+  "recordedStdout": "",
+  "recordedStderr": "",
+  "capturedAt": "2026-07-05T16:26:06.072881+00:00",
+  "note": "Final all-stage P0 gate after G007 scaffold/release-evidence blocker fixes."
+}

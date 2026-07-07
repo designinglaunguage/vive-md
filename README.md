@@ -10,7 +10,7 @@
 
 | 분류 | 경로 | 설명 |
 |------|------|------|
-| 가이드 | [`vibe-coding/README.md`](./vibe-coding/README.md) | 바이브코딩 & 멀티에이전트 오케스트레이션 종합 가이드 |
+| 가이드 | [`vibe-coding/`](./vibe-coding/) | 바이브코딩 & 멀티에이전트 오케스트레이션 종합 가이드 |
 | MCP | [`vibe-coding/mcp/`](./vibe-coding/mcp/) | MCP 아키텍처, 서버 개발, 보안, 실전 패턴 |
 | Skills | [`vibe-coding/skills/`](./vibe-coding/skills/) | Skills 생성, 고급 패턴, 실전 예시 |
 | 논문 | [`vibe-coding/papers/`](./vibe-coding/papers/) | ChatDev, MetaGPT 등 연구 논문 요약 |
@@ -43,6 +43,7 @@
 |--------|------|
 | 서비스 기획서 | `templates/waterfall/00-기획/서비스기획서.md` |
 | 비즈니스 정책서 | `templates/waterfall/00-기획/비즈니스정책서.md` |
+| 용어정의서 | `templates/waterfall/00-기획/용어정의서.md` |
 
 ### Phase 1: 요구사항 분석
 | 산출물 | 파일 |
@@ -81,11 +82,13 @@
 |--------|------|
 | 배포 계획서 | `templates/waterfall/06-배포/배포계획서.md` |
 | 운영 가이드 | `templates/waterfall/06-배포/운영가이드.md` |
+| 릴리스 체크리스트 | `templates/waterfall/06-배포/RELEASE_CHECKLIST.md` |
 
 ### Phase 7: 유지보수
 | 산출물 | 파일 |
 |--------|------|
 | 유지보수 계획서 | `templates/waterfall/07-유지보수/유지보수계획서.md` |
+| 운영 RUNBOOK | `templates/waterfall/07-유지보수/운영-RUNBOOK.md` |
 
 ### 검토 & 프로젝트 관리
 | 산출물 | 파일 |
@@ -93,6 +96,7 @@
 | 단계별 검토 체크리스트 | `templates/waterfall/08-검토/단계별검토-체크리스트.md` |
 | UX 검토서 | `templates/waterfall/08-검토/UX검토서.md` |
 | 프로젝트 관리 산출물 | `templates/waterfall/08-검토/프로젝트관리-산출물.md` |
+| 리뷰 로그 | `templates/waterfall/08-검토/REVIEW_LOG.md` |
 
 ## 바이브코딩 라이브러리
 
@@ -100,7 +104,7 @@
 
 | 분류 | 파일 | 설명 |
 |------|------|------|
-| 메인 가이드 | [`vibe-coding/README.md`](./vibe-coding/README.md) | 바이브코딩 개념, 프레임워크, 모범 사례 |
+| 메인 가이드 | [`vibe-coding/`](./vibe-coding/) | 바이브코딩 개념, 프레임워크, 모범 사례 |
 | 도구 가이드 | [`vibe-coding/tools/`](./vibe-coding/tools/) | Claude Code, Kimi 바이브코딩 실전 가이드 |
 | MCP 지식 센터 | [`vibe-coding/mcp/`](./vibe-coding/mcp/) | MCP 아키텍처, 서버 개발, 보안, 실전 패턴 (5개 문서, ~6,800줄) |
 | Skills 지식 센터 | [`vibe-coding/skills/`](./vibe-coding/skills/) | Skills 생성 가이드, 고급 패턴, 실전 예시 (4개 문서, ~5,300줄) |
@@ -120,6 +124,7 @@
 | 온톨로지 원문·번역 아카이브 | [`docs/ontology-papers/README.md`](./docs/ontology-papers/README.md) | 58편 원문 수집 결과 + 1:1 번역 문서 |
 | 오케스트레이션 가이드 | [`docs/multi-agent-orchestration-papers-guide.md`](./docs/multi-agent-orchestration-papers-guide.md) | 논문 기반 실무 적용 가이드 |
 | 문서 설정 가이드 | [`docs/guides/문서-기반-프로젝트-설정-가이드.md`](./docs/guides/문서-기반-프로젝트-설정-가이드.md) | 문서 중심 프로젝트 운영 가이드 |
+| 워터폴 샘플/검증 증거 | [`docs/waterfall/`](./docs/waterfall/) | 용어정의서, SRS 샘플, 코딩 핸드오프 예시, 릴리스/리뷰 검증 증거 |
 
 ## 사용법
 

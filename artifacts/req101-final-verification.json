@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "kind": "test-report",
+  "capturedAt": "2026-07-05T16:26:06.072881+00:00",
+  "scope": "REQ-101 final gate after G007 blocker fixes",
+  "results": [
+    {
+      "command": [
+        "python3",
+        "scripts/p0_check.py",
+        "--project-root",
+        "docs/waterfall",
+        "--stage",
+        "all"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "returncode": 0,
+      "stdout": "\n\n  날짜:     2026-07-05\n  파일명:   brief.md\n  출력경로: /tmp/tmp65pojkwx/brief.md\n  버전:     v01\n\n\n\n\n\n\n  파일 경로: /tmp/tmp65pojkwx/brief.md\n  파일 크기: 19 bytes\n  라인 수:   3\n  뉴스 건수: 1건\n\n──────────────────────────────────────────────────\n## 1. item\ncontent\n\n\n\n\n[OK] 노트 저장 완료: /tmp/tmp66owjmkf/notes/AIB-brief_20260705.md\n",
+      "stderr": "..................................\n----------------------------------------------------------------------\nRan 34 tests in 3.758s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "compileall",
+        "scripts"
+      ],
+      "returncode": 0,
+      "stdout": "Listing 'scripts'...\nListing 'scripts/ai-news-collector'...\nListing 'scripts/news-collector'...\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "py_compile",
+        "scripts/ai-news-collector/ai-daily.py"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "summary": {
+    "p0AllPassed": true,
+    "unittestPassed": true,
+    "compileallPassed": true,
+    "pyCompilePassed": true,
+    "testCount": 34
+  }
+}
