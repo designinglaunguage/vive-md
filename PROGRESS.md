@@ -1,5 +1,15 @@
 # PROGRESS
 
+## 2026-07-10
+
+- 기존 Git에는 없었지만 전체 워터폴 구조에서 빠져 있던 `02-시스템설계`, `03-상세설계`, `05-테스트`, `07-유지보수` 단계를 `templates/waterfall`의 추적 중인 원본 문서 10개로 새로 추가했다.
+- 기존 `00`, `01`, `04`, `06`, `08` 단계의 검증 문서는 덮어쓰지 않았다.
+- 미추적 사용자 작업인 `templates/waterfall/07-유지보수/변경이력.md`는 복사하지 않고 원본만 보존했다.
+- 검증 결과:
+  - 원본과 복구본의 파일 목록 및 SHA-256 내용 비교 통과: 4단계, 10개 파일
+  - `python3 scripts/p0_check.py --project-root docs/waterfall --stage all` 통과
+  - `python3 -m unittest discover -s tests` 통과, 37 tests
+
 ## 2026-07-07
 
 - Fable 고도화본 `/home/juns/tmp/vive-md`의 워터폴 템플릿, `docs/waterfall` 증거 문서, CLI/검증 스크립트, 테스트를 C 경로 작업본에 반영했다.

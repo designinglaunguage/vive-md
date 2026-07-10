@@ -124,7 +124,7 @@
 | 온톨로지 원문·번역 아카이브 | [`docs/ontology-papers/README.md`](./docs/ontology-papers/README.md) | 58편 원문 수집 결과 + 1:1 번역 문서 |
 | 오케스트레이션 가이드 | [`docs/multi-agent-orchestration-papers-guide.md`](./docs/multi-agent-orchestration-papers-guide.md) | 논문 기반 실무 적용 가이드 |
 | 문서 설정 가이드 | [`docs/guides/문서-기반-프로젝트-설정-가이드.md`](./docs/guides/문서-기반-프로젝트-설정-가이드.md) | 문서 중심 프로젝트 운영 가이드 |
-| 워터폴 샘플/검증 증거 | [`docs/waterfall/`](./docs/waterfall/) | 용어정의서, SRS 샘플, 코딩 핸드오프 예시, 릴리스/리뷰 검증 증거 |
+| 전체 단계 워터폴 샘플/검증 증거 | [`docs/waterfall/`](./docs/waterfall/) | 전체 단계 구조, 02·03·05·07단계 미작성 템플릿 스냅샷, REQ-101 검증 증거 |
 
 ## 사용법
 
